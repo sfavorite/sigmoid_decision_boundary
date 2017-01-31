@@ -12,7 +12,7 @@ x <- cbind(1, x)
 plot(x1, x2, xlab="x1", ylab="x2", main="My stuff")
 abline(a=3, b=-1, col="green")
 
-# Define theta (our decision boundry)
+# Define theta (our decision boundary)
 theta <- matrix(c(-3, 1, 1), ncol=3)
 
 g <- x %*% t(theta)
